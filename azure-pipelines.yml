@@ -14,10 +14,10 @@ variables:
 
 steps:
   - task: UseDotNet@2
-    displayName: 'Install .NET 7 SDK'
+    displayName: 'Install .NET 9 SDK'
     inputs:
       packageType: 'sdk'
-      version: '7.0.x'
+      version: '9.0.x'
   - task: DotNetCoreCLI@2
     displayName: 'Restoring dependences'
     inputs:
